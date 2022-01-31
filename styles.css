@@ -17,49 +17,49 @@ html, body {
 }
 
 .cat {
-  width: 176px;
-  height: 109px;
+  width: 100px;
+  height: 165px;
   background-image: url(./cats.jpg);
 }
 
 .cat1 {
-  background-position: 0px 0px;
+  background-position: -165px 0px;
 }
 
 .cat2 {
-  background-position: 0px -109px;
+  background-position: -165px -165px;
 }
 
 .cat3 {
-  background-position: 0px -218px;
+  background-position: -165px -330px;
 }
 
 .cat4 {
-  background-position: 0px -327px;
+  background-position: -165px -495px;
 }
 
 .cat5 {
-  background-position: 0px -436px;
+  background-position: -165px -660px;
 }
 
 .cat6 {
-  background-position: 0px -545px;
+  background-position: -165px -825px;
 }
 
 .cat7 {
-  background-position: 0px -654px;
+  background-position: -165px -990px;
 }
 
 .cat8 {
-  background-position: 0px -763px;
+  background-position: -165px -1155px;
 }
 
 .cat9 {
-  background-position: 0px -872px;
+  background-position: -165px -1320px;
 }
 
 .cat10 {
-  background-position: 0px -981px;
+  background-position: -165px -1485px;
 }
 
 
@@ -141,5 +141,5 @@ html, body {
 
 .tile {
   width: 100px;
-  height: 109px;
+  height: 100px;
 }
