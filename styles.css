@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: darkgray;
+}
+
+.block {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+}
+
+.cat {
+  width: 266px;
+  height: 165px;
+  background-image: url(./cats.jpg);
+}
+
+.cat1 {
+  background-position: 0px 0px;
+}
+
+.cat2 {
+  background-position: 0px -165px;
+}
+
+.cat3 {
+  background-position: 0px -330px;
+}
+
+.cat4 {
+  background-position: 0px -495px;
+}
+
+.cat5 {
+  background-position: 0px -660px;
+}
+
+.cat6 {
+  background-position: 0px -825px;
+}
+
+.cat7 {
+  background-position: 0px -990px;
+}
+
+.cat8 {
+  background-position: 0px -1155px;
+}
+
+.cat9 {
+  background-position: 0px -1320px;
+}
+
+.cat10 {
+  background-position: 0px -1485px;
+}
+
+
+.patt {
+  background-image: url(./patts.jpg);
+}
+
+.patt1 {
+  background-position: 0px 0px;
+}
+
+.patt2 {
+  background-position: 0px -97px;
+}
+
+.patt3 {
+  background-position: 0px -194px;
+}
+
+.patt4 {
+  background-position: 0px -291px;
+}
+
+.patt5 {
+  background-position: 0px -388px;
+}
+
+.patt6 {
+  background-position: 0px -485px;
+}
+
+.color {
+  background-image: url(./colors.jpg);
+}
+
+.col1 {
+  background-position: 0px 0px;
+}
+
+.col2 {
+  background-position: 0px -109px;
+}
+
+.col3 {
+  background-position: 0px -218px;
+}
+
+.col4 {
+  background-position: 0px -327px;
+}
+
+.goal {
+  background-image: url(./goals.jpg);
+}
+
+.goal1 {
+  background-position: 0px 0px;
+}
+
+.goal2 {
+  background-position: 0px -109px;
+}
+
+.goal3 {
+  background-position: 0px -218px;
+}
+
+.goal4 {
+  background-position: 0px -327px;
+}
+
+.goal5 {
+  background-position: 0px -436px;
+}
+
+.goal6 {
+  background-position: 0px -545px;
+}
+
+.tile {
+  width: 100px;
+  height: 109px;
+}
