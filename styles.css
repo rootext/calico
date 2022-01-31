@@ -13,11 +13,12 @@ html, body {
   padding: 10px;
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .cat {
-  width: 266px;
-  height: 165px;
+  width: 176px;
+  height: 109px;
   background-image: url(./cats.jpg);
 }
 
@@ -26,39 +27,39 @@ html, body {
 }
 
 .cat2 {
-  background-position: 0px -165px;
+  background-position: 0px -109px;
 }
 
 .cat3 {
-  background-position: 0px -330px;
+  background-position: 0px -218px;
 }
 
 .cat4 {
-  background-position: 0px -495px;
+  background-position: 0px -327px;
 }
 
 .cat5 {
-  background-position: 0px -660px;
+  background-position: 0px -436px;
 }
 
 .cat6 {
-  background-position: 0px -825px;
+  background-position: 0px -545px;
 }
 
 .cat7 {
-  background-position: 0px -990px;
+  background-position: 0px -654px;
 }
 
 .cat8 {
-  background-position: 0px -1155px;
+  background-position: 0px -763px;
 }
 
 .cat9 {
-  background-position: 0px -1320px;
+  background-position: 0px -872px;
 }
 
 .cat10 {
-  background-position: 0px -1485px;
+  background-position: 0px -981px;
 }
 
 
