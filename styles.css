@@ -10,90 +10,110 @@ html, body {
 }
 
 .block {
-  padding: 10px;
+  padding-bottom: 10px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
 }
 
 .cat {
-  width: 150px;
+  width: 32vw;
+  min-width: 100px;
+  max-width: 266px;
   height: 165px;
   background-image: url(./cats.jpg);
-  --w: 115px;
+  --w: 33vw;
   --h: 165px;
 }
 
+.cat-block {
+
+}
+
+.patt-block {
+  width: 32vw;
+  min-width: 100px;
+  max-width: 200px;
+  display: flex;
+}
+
 .patt {
+  width: 16vw;
+  min-width: 50px;
+  height: 100px;
   background-image: url(./patts.jpg);
   --w: 0px;
   --h: 97px;
 }
 
 .color {
+  width: 24vw;
   background-image: url(./colors.jpg);
   --w: 0px;
   --h: 109px;
 }
 
 .goal {
+  width: 24vw;
   background-image: url(./goals.jpg);
+  background-repeat: no-repeat;
   --w: 0px;
   --h: 109px;
 }
 
 .tile {
-  width: 100px;
+  min-width: 90px;
+  max-width: 100px;
   height: 100px;
 }
 
 .item0 {
   --i: 0;
-  background-position: calc(-1*var(--w)) calc(var(--i)*var(--h));
+  background-position: right 0px top calc(var(--i)*var(--h));
 }
 
 .item1 {
   --i: -1;
-  background-position: calc(-1*var(--w)) calc(var(--i)*var(--h));
+  background-position: right 0px top calc(var(--i)*var(--h));
 }
 
 .item2 {
   --i: -2;
-  background-position: calc(-1*var(--w)) calc(var(--i)*var(--h));
+  background-position: right 0px top calc(var(--i)*var(--h));
 }
 
 .item3 {
   --i: -3;
-  background-position: calc(-1*var(--w)) calc(var(--i)*var(--h));
+  background-position: right 0px top calc(var(--i)*var(--h));
 }
 
 .item4 {
   --i: -4;
-  background-position: calc(-1*var(--w)) calc(var(--i)*var(--h));
+  background-position: right 0px top calc(var(--i)*var(--h));
 }
 
 .item5 {
   --i: -5;
-  background-position: calc(-1*var(--w)) calc(var(--i)*var(--h));
+  background-position: right 0px top calc(var(--i)*var(--h));
 }
 
 .item6 {
   --i: -6;
-  background-position: calc(-1*var(--w)) calc(var(--i)*var(--h));
+  background-position: right 0px top calc(var(--i)*var(--h));
 }
 
 .item7 {
   --i: -7;
-  background-position: calc(-1*var(--w)) calc(var(--i)*var(--h));
+  background-position: right 0px top calc(var(--i)*var(--h));
 }
 
 .item8 {
   --i: -8;
-  background-position: calc(-1*var(--w)) calc(var(--i)*var(--h));
+  background-position: right 0px top calc(var(--i)*var(--h));
 }
 
 .item9 {
   --i: -9;
-  background-position: calc(-1*var(--w)) calc(var(--i)*var(--h));
+  background-position: right 0px top calc(var(--i)*var(--h));
 }
 
